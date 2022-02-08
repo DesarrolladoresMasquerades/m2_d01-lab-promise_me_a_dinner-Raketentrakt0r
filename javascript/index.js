@@ -38,7 +38,7 @@ getInstruction("mashedPotatoes", 3, (step3) => {
 getInstruction("mashedPotatoes", 4, (step4) => {
   document.querySelector("#mashedPotatoes").innerHTML += `<li>${step4}</li>`;
 getInstruction("mashedPotatoes", 5, (step5) => {
-  document.querySelector("#mashedPotatoes").innerHTML += `<li>${step4}</li>`;  
+  document.querySelector("#mashedPotatoes").innerHTML += `<li>${step5}</li>`;  
     }, (error) => console.log(error));
    }, (error) => console.log(error));
   }, (error) => console.log(error));
@@ -46,7 +46,7 @@ getInstruction("mashedPotatoes", 5, (step5) => {
 }, (error) => console.log(error));
 
 // Iteration 2 - using promises
-// ...
+
 
 // Iteration 3 using async/await
 // ...
